@@ -1,0 +1,121 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.9">
+  <diagram name="Page-1" id="gCn25L91_fRw_yDkpCie">
+    <mxGraphModel dx="1293" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N_jHugrtO_UoobZrpi6G-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;" value=":Teacher" vertex="1">
+          <mxGeometry height="784" width="35" x="50" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N_jHugrtO_UoobZrpi6G-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="&lt;&lt;boundary&gt;&gt;&#xa;:GradeInputWindow" vertex="1">
+          <mxGeometry height="784" width="162" x="394" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N_jHugrtO_UoobZrpi6G-3" parent="N_jHugrtO_UoobZrpi6G-2" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" value="" vertex="1">
+          <mxGeometry height="580" width="10" x="76" y="109" as="geometry" />
+        </mxCell>
+        <mxCell id="N_jHugrtO_UoobZrpi6G-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="&lt;&lt;controller&gt;&gt;&#xa;:GradeHandler" vertex="1">
+          <mxGeometry height="784" width="150" x="756" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N_jHugrtO_UoobZrpi6G-5" parent="N_jHugrtO_UoobZrpi6G-4" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" value="" vertex="1">
+          <mxGeometry height="462" width="10" x="70" y="163" as="geometry" />
+        </mxCell>
+        <mxCell id="N_jHugrtO_UoobZrpi6G-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="&lt;&lt;entity&gt;&gt;&#xa;:Student" vertex="1">
+          <mxGeometry height="784" width="150" x="983" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N_jHugrtO_UoobZrpi6G-7" parent="N_jHugrtO_UoobZrpi6G-6" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" value="" vertex="1">
+          <mxGeometry height="44" width="10" x="70" y="217" as="geometry" />
+        </mxCell>
+        <mxCell id="N_jHugrtO_UoobZrpi6G-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="&lt;&lt;entity&gt;&gt;&#xa;:GradeRecord" vertex="1">
+          <mxGeometry height="784" width="150" x="1183" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N_jHugrtO_UoobZrpi6G-9" parent="N_jHugrtO_UoobZrpi6G-8" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" value="" vertex="1">
+          <mxGeometry height="128" width="10" x="70" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="N_jHugrtO_UoobZrpi6G-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="&lt;&lt;data access&gt;&gt;&#xa;:GradeDAO" vertex="1">
+          <mxGeometry height="784" width="150" x="1383" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N_jHugrtO_UoobZrpi6G-11" parent="N_jHugrtO_UoobZrpi6G-10" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" value="" vertex="1">
+          <mxGeometry height="44" width="10" x="70" y="517" as="geometry" />
+        </mxCell>
+        <mxCell id="N_jHugrtO_UoobZrpi6G-12" edge="1" parent="1" source="N_jHugrtO_UoobZrpi6G-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="N_jHugrtO_UoobZrpi6G-3" value="enterGrades(studentID, courseID, score)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="309" y="129" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N_jHugrtO_UoobZrpi6G-13" edge="1" parent="1" source="N_jHugrtO_UoobZrpi6G-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="N_jHugrtO_UoobZrpi6G-5" value="updateGrade(studentID, courseID, score)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="664" y="183" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N_jHugrtO_UoobZrpi6G-14" edge="1" parent="1" source="N_jHugrtO_UoobZrpi6G-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="N_jHugrtO_UoobZrpi6G-7" value="getStudent(studentID)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="955" y="237" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N_jHugrtO_UoobZrpi6G-15" edge="1" parent="1" source="N_jHugrtO_UoobZrpi6G-6" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="N_jHugrtO_UoobZrpi6G-5" value="studentObj">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="956" y="291" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N_jHugrtO_UoobZrpi6G-16" edge="1" parent="1" source="N_jHugrtO_UoobZrpi6G-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="N_jHugrtO_UoobZrpi6G-9" value="setScore(score)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1055" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N_jHugrtO_UoobZrpi6G-17" edge="1" parent="1" source="N_jHugrtO_UoobZrpi6G-9" style="curved=1;endArrow=block;rounded=0;" target="N_jHugrtO_UoobZrpi6G-9" value="calculateWeightedAverage()">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1313" y="399" />
+              <mxPoint x="1313" y="429" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N_jHugrtO_UoobZrpi6G-18" edge="1" parent="1" source="N_jHugrtO_UoobZrpi6G-8" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="N_jHugrtO_UoobZrpi6G-5" value="newAverage">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1056" y="483" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N_jHugrtO_UoobZrpi6G-19" edge="1" parent="1" source="N_jHugrtO_UoobZrpi6G-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="N_jHugrtO_UoobZrpi6G-11" value="saveGrade(gradeObj)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1155" y="537" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N_jHugrtO_UoobZrpi6G-20" edge="1" parent="1" source="N_jHugrtO_UoobZrpi6G-10" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="N_jHugrtO_UoobZrpi6G-5" value="success">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1156" y="591" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N_jHugrtO_UoobZrpi6G-21" edge="1" parent="1" source="N_jHugrtO_UoobZrpi6G-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="N_jHugrtO_UoobZrpi6G-3" value="displaySuccess()">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="665" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N_jHugrtO_UoobZrpi6G-22" edge="1" parent="1" source="N_jHugrtO_UoobZrpi6G-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="N_jHugrtO_UoobZrpi6G-1" value="Show &quot;Grade Updated&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="699" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
